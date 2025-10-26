@@ -1,13 +1,7 @@
-package DSA;
-class Node{
-	Node link;
-	int data;
-	Node(int data){
-		this.data=data;
-		this.link=null;
-	}
-}
-public class Linked {
+package com.ayush.Graph;
+
+
+public class LinkedList {
 	static Node head=null;
 	public static void add(int data) {
 		Node newnode = new Node(data);
@@ -30,14 +24,13 @@ public class Linked {
 			temp=temp.link;
 		}
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args){
 		add(10);
 		add(20);
 		add(30);
 		add(40);
 		print();
-
+		
 	}
-
+		
 }

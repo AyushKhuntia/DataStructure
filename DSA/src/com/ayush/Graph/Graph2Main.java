@@ -1,4 +1,4 @@
-package DSA;
+package com.ayush.Graph;
 import java.util.LinkedList;
 class Graph1{
 	static class Edge{
