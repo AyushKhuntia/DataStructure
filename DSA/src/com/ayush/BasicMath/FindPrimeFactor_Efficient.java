@@ -21,6 +21,7 @@ public class FindPrimeFactor_Efficient {
 		Scanner sc = new Scanner(System.in);
 		int x =sc.nextInt();
 		primefactor(x);
+		System.out.println("Hello");
 
 
 	}
