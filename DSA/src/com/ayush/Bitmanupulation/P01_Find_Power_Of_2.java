@@ -15,6 +15,7 @@ public class P01_Find_Power_Of_2 {
 		else {
 			System.out.println(x + " is not a power of 2");
 		}
+		
 
 	}
 
