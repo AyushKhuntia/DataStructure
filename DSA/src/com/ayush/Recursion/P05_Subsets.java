@@ -1,6 +1,8 @@
 package com.ayush.Recursion;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class P05_Subsets {
 	public static void subsets(int []arr,int i,ArrayList<Integer> output) {
