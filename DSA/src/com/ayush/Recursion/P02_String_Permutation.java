@@ -19,7 +19,7 @@ public class P02_String_Permutation {
 	}
 
 	public static void main(String[] args) {
-		String str ="abc";
+		String str ="123";
 		permute(str,"");
 		
 
