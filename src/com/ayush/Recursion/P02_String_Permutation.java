@@ -1,5 +1,7 @@
 package com.ayush.Recursion;
 
+
+
 public class P02_String_Permutation {
 	public static void permute(String str,String ans) {
 		if(ans.length() == 3) {
@@ -21,8 +23,7 @@ public class P02_String_Permutation {
 	public static void main(String[] args) {
 		String str ="123";
 		permute(str,"");
-		
-
+	
 	}
 
 }
